@@ -29,6 +29,7 @@ class ControllerTest {
         // 1. Persist a University first
         University uni = new University();
         uni.setName("Test University");
+        // uni.setName("Test University");
 
         uni = universityRepository.save(uni); // save to DB so it has an ID
 
